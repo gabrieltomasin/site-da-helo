@@ -91,6 +91,10 @@ footer {
     color: #000000;
 }
 
+.fa-solid {
+    color: #000000
+}
+
 footer img {
     width: 2em;
     position: relative;
@@ -98,5 +102,7 @@ footer img {
 }
 
 .copyright {
-    margin-top: 2em;
+    margin: 2em 0;
+    color: #00000052;
+    font-size: 0.8em;
 }
