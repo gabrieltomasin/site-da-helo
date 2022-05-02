@@ -35,6 +35,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
+    transition: 500ms;
 }
 
 nav a:hover {
@@ -71,4 +72,31 @@ nav a:hover {
 
 .imagem-tabela img {
     max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 2em;
+}
+
+.fa-brands {
+    color: #000000;
+}
+
+footer img {
+    width: 2em;
+    position: relative;
+    top: 0.6em;
+}
+
+.copyright {
+    margin-top: 2em;
 }
