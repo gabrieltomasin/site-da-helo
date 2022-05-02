@@ -1,0 +1,74 @@
+body {
+    background-color: #F7F7F7;
+}
+
+header {
+    padding: 1em;
+    border-bottom: 0.1em solid black;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img {
+    max-width: 5%;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+nav li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+nav a {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #FFB72B;
+}
+
+.introducao {
+    width: 940px;
+    margin: 3em auto 0;
+}
+
+.bloco-texto-tabela {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.bloco-texto-tabela h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+.bloco-texto-tabela h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.6em;
+}
+
+.imagem-tabela {
+    width: 40%;
+    float: right;
+}
+
+.imagem-tabela img {
+    max-width: 100%;
+}
