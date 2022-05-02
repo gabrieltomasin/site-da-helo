@@ -62,7 +62,7 @@ nav a:hover {
 .bloco-texto-tabela h3 {
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 0.6em;
+    margin-bottom: 1.3em;
 }
 
 .imagem-tabela {
@@ -74,10 +74,47 @@ nav a:hover {
     max-width: 100%;
 }
 
+.pilares {
+    clear: both;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.pilares li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 5em 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px 0px #303030;
+    transition: 200ms;
+    color: #000000;
+}
+
+.pilares li:hover {
+    border-color: #FFB72B;
+    transform: scale(1.1);
+}
+
+.pilares li h2 {
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+    font-weight: bold;
+}
+
+.pilares img {
+    max-width: 80%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
 footer {
     width: 100%;
-    clear: both;
-    position: absolute;
+    position: static;
     bottom: 0;
     margin: 0 auto;
     text-align: center;
