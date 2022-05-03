@@ -78,6 +78,7 @@ nav a:hover {
 
 .imagem-tabela img {
     max-width: 100%;
+    border-radius: 50%;
 }
 
 .pilares {
