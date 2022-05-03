@@ -6,6 +6,7 @@ body {
 header {
     padding: 1em;
     border-bottom: 0.1em solid black;
+    margin-bottom: 3em;
 }
 
 .caixa{
@@ -36,7 +37,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000000;
-    transition: 500ms;
+    transition: 300ms;
 }
 
 nav a:hover {
@@ -45,7 +46,7 @@ nav a:hover {
 
 .introducao {
     width: 940px;
-    margin: 3em auto 0;
+    margin: 0 auto;
 }
 
 .bloco-texto-tabela {
@@ -115,6 +116,49 @@ nav a:hover {
     max-width: 80%;
     border: 1px solid #000000;
     border-radius: 5px;
+}
+
+.cv {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cv h2 {
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+.cv h3 {
+    font-size: 1.3em;
+    margin: 1em 0 0.5em;
+}
+
+.lista-cv {
+    margin-bottom: 2em;
+}
+
+.lista-cv li {
+    padding: 1em;
+}
+
+.lista-cv h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.lista-cv h5 {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 0.3em;
+}
+
+.lista-cv a {
+    color: #000000;
+    transition: 300ms;
+}
+
+.lista-cv a:hover {
+    color: #FFB72B;
 }
 
 footer {
